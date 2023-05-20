@@ -3,6 +3,7 @@
     --active-nav-color: #0cab97;
     --nav-link-color: #0cab97;
     --nav-link-hover-color: #F1F1E6;
+    --main-text-color: #AACEC0;
 }
 
 * {
@@ -19,6 +20,7 @@ body {
 
 .right {
     height: 100vh;
+    color: whitesmoke;
 }
 
 .nav-pills .nav-link.active {
@@ -26,11 +28,15 @@ body {
     color: white;
 }
 
-.nav-link {
+.nav-link, hr {
     color: var(--nav-link-color);
 }
 
 .nav-link:hover {
     color: var(--nav-link-hover-color);
+}
+
+.content li, p {
+    color: var(--main-text-color);
 }
 
