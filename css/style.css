@@ -1,9 +1,9 @@
 :root {
-    --body-bg-color: #041d21;
-    --active-nav-color: #0cab97;
-    --nav-link-color: #0cab97;
+    --body-bg-color: black;
+    --active-nav-color: #009fa0;
+    --nav-link-color: #009fa0;
     --nav-link-hover-color: #F1F1E6;
-    --main-text-color: #AACEC0;
+    --main-text-color: white;
 }
 
 * {
@@ -14,13 +14,12 @@ body {
     background-color: var(--body-bg-color);
 }
 
-.left {
-    height: 100vh;
+.left .nav-link {
+    color: white;
 }
 
-.right {
+.left {
     height: 100vh;
-    color: whitesmoke;
 }
 
 .nav-pills .nav-link.active {
@@ -38,5 +37,9 @@ body {
 
 .content li, p {
     color: var(--main-text-color);
+}
+
+h4 {
+    color: white;
 }
 
